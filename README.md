@@ -99,14 +99,16 @@ basic-python/
 
 - [ ] **setup.py**: Project configuration script for installation via pip or similar.
 
-## 2. Activate virtual environment
+## 2. Install Application
 
-### Criação
+### 2.1 Virtual environment
+
+#### Criação
 ```
 python -m venv venv
 ```
 
-### Activation
+#### Activation
 ```
 #linux
 source venv/bin/activate
@@ -115,12 +117,14 @@ source venv/bin/activate
 .\venv\Scripts\activate
 ```
 
-### Install dependencies
+### 2.2 Install dependencies
+
 ```
+python.exe -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### Update dependencies
+### 2.3 Update dependencies
 ```
 pip freeze > requirements.txt
 ```
