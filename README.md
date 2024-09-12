@@ -129,3 +129,14 @@ pip install -r requirements.txt
 pip freeze > requirements.txt
 ```
 
+### 2.4 Tests
+
+#### Install pytest
+```
+pip install pytest
+```
+
+#### Install coverage
+```
+pip install pytest-cov
+```
