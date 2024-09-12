@@ -2,7 +2,7 @@
 
 Template basic for python projects
 
-## Folder Structure
+## 1. Folder Structure
 ```
 basic-python/
 │
@@ -99,4 +99,29 @@ basic-python/
 
 - [ ] **setup.py**: Project configuration script for installation via pip or similar.
 
+## 2. Activate virtual environment
+
+### Criação
+```
+python -m venv venv
+```
+
+### Activation
+```
+#linux
+source venv/bin/activate
+
+#windows
+.\venv\Scripts\activate
+```
+
+### Install dependencies
+```
+pip install -r requirements.txt
+```
+
+### Update dependencies
+```
+pip freeze > requirements.txt
+```
 
