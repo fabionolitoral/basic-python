@@ -103,7 +103,7 @@ basic-python/
 
 ### 2.1 Virtual environment
 
-#### Criação
+#### Creation
 ```
 python -m venv venv
 ```
