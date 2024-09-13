@@ -140,3 +140,16 @@ pip install pytest
 ```
 pip install pytest-cov
 ```
+
+### Coverage configuration
+Edit the .coveragerc file and add the folders you want to cover.
+
+```
+[run]
+source = ./folder-to-cover
+
+[report]
+exclude_lines =
+    def __str__
+    def __init__**
+```
