@@ -23,6 +23,10 @@ basic-python/
 │   │   ├── __init__.py
 │   │   ├── controller_a.py
 │   │   └── controller_b.py
+│   ├── utils/                # Utility functions
+│   │   ├── __init__.py
+│   │   ├── util_a.py
+│   │   └── util_b.py
 │   └── views/                # User interface or view templates
 │       ├── __init__.py
 │       ├── view_a.py
