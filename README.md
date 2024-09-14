@@ -131,17 +131,16 @@ pip freeze > requirements.txt
 
 ### 2.4 Tests
 
-#### Install pytest
+#### 2.4.1 Install pytest
 ```
 pip install pytest
 ```
 
-#### Install coverage
+#### 2.4.2 Install coverage
 ```
 pip install pytest-cov
 ```
 
-### Coverage configuration
 Edit the .coveragerc file and add the folders you want to cover.
 
 ```
@@ -151,5 +150,22 @@ source = ./folder-to-cover
 [report]
 exclude_lines =
     def __str__
-    def __init__**
+```
+
+## 3. Run Application
+
+```
+python main.py
+```
+
+## 4. Testing
+
+```
+pytest
+```
+
+## 5. Coverage
+
+```
+pytest -v --cov=src tests/ --cov-report term-missing
 ```
