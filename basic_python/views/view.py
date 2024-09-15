@@ -1,6 +1,3 @@
 class View:
-    def __init__(self):
-        pass
-
-    def show(self, data):
-        print(data)
+    def __init__(self, name):
+        self.name = name

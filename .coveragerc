@@ -1,7 +1,7 @@
 [run]
-source = ./basic-python
+source = ./basic_python
 
 [report]
 exclude_lines =
     def __str__
-    def __init__
+
