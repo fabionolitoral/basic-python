@@ -1,6 +1,11 @@
 #Program entry point
 def main():
-    print("Hello World!")
+    # text generated from https://coolsymbol.com/big-text-generator.html
+    print("""
+    █▀▀▄ █▀▀█ █▀▀ ░▀░ █▀▀ ░ ░ █▀▀█ █░░█ ▀▀█▀▀ █░░█ █▀▀█ █▀▀▄
+    █▀▀▄ █▄▄█ ▀▀█ ▀█▀ █░░ ▀ ▀ █░░█ █▄▄█ ░░█░░ █▀▀█ █░░█ █░░█
+    ▀▀▀░ ▀░░▀ ▀▀▀ ▀▀▀ ▀▀▀ ░ ░ █▀▀▀ ▄▄▄█ ░░▀░░ ▀░░▀ ▀▀▀▀ ▀░░▀
+    """)
 
 
 # Check if the executed script is the main one
